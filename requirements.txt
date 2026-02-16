@@ -1,5 +1,6 @@
+python_version<3.12
+tensorflow==2.15.0
 streamlit
-tensorflow
-keras
 numpy
 pillow
+h5py
