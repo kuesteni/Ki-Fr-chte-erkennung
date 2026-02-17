@@ -1,6 +1,5 @@
-python_version<3.12
+streamlit==1.32.2
+numpy==1.26.4
 tensorflow==2.15.0
-streamlit
-numpy
-pillow
-h5py
+keras==2.15.0
+Pillow==10.2.0
