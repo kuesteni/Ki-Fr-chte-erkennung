@@ -1,0 +1,3 @@
+0 Apfel
+1 Banane
+2 Orange
