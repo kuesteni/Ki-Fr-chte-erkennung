@@ -16,7 +16,7 @@ st.write("Lade ein Bild hoch und die KI erkennt Apfel, Banane oder Orange.")
 # ==========================
 @st.cache_resource
 def load_keras_model():
-    model = load_model("keras_Model.h5", compile=False)
+    model = load_model("keras_model.h5", compile=False)
     class_names = open("labels.txt", "r").readlines()
     return model, class_names
 
